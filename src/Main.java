@@ -22,14 +22,14 @@ public class Main {
             System.out.println("Task 2");
         int max = arr[0];
         for (int value : arr) {
-            if (max > value)
+            if (max < value)
                 max = value;
         }
             System.out.println("Максимальная сумма " + max);
 
         int min = arr[0];
         for (int j : arr) {
-            if (min < j)
+            if (min > j)
                 min = j;
         }
             System.out.println("Минимальная сумма " + min);
